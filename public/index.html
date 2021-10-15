@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"
+        integrity="sha512-WL6WGKMPBiM9PnHRYIn5YEtq0Z8XP4fkVb4qy7PP4vhmYQErJ/dySyXuFIMDf1eEYCXCrQrMJfkNwKc9gsjTjA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id=chat-wrap>
+<h2>IKTEX chat</h2>
+<div id="chat-window">
+<div id="output"></div>
+<div id="feedback"></div>
+</div>
+<input type="text" id="sender" placeholder="Ad">
+<input type="text" id="message" placeholder="Mesaj">
+<button id="submitButton">Gonder</button>
+</div>
+
+<script src="chat.js" charset="utf-8"></script>
+</body>
+
+</html>
